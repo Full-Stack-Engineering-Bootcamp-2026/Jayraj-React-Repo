@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2 class="logo">Apex</h2>
+
+        <ul>
+          <li>
+            <a href="index.html" class="active">
+              <span class="nav-icon">🏠</span> Dashboard
+            </a>
+          </li>
+          <li>
+            <a href="orders.html">
+              <span class="nav-icon">📦</span> Orders
+            </a>
+          </li>
+        </ul>
+
+        <div class="profile">
+          <div class="profile-avatar">AS</div>
+          <p>Admin</p>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+        <!-- Topbar -->
+        <div class="topbar">
+          <input type="text" placeholder="Search..." />
+
+          <div class="top-actions">
+            <a href="new-order.html" class="btn">+ New Order</a>
+            <span class="avatar">AS</span>
+          </div>
+        </div>
+
+        <!-- Page Content -->
+        <div class="page">
+          <h1>Dashboard</h1>
+          <p class="subtitle">Welcome back. Here's what's happening.</p>
+
+          <!-- Cards -->
+          <div class="cards">
+
+            <div class="card">
+              <div class="card-header">
+                <span>Total Revenue</span>
+                <span class="card-icon">💰</span>
+              </div>
+              <h2>$48,295</h2>
+              <p class="green">+12.5%</p>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <span>Active Users</span>
+                <span class="card-icon">👥</span>
+              </div>
+              <h2>2,847</h2>
+              <p class="green">+8.2%</p>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <span>Total Orders</span>
+                <span class="card-icon">📦</span>
+              </div>
+              <h2>1,432</h2>
+              <p class="red">-3.1%</p>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <span>Page Views</span>
+                <span class="card-icon">👁</span>
+              </div>
+              <h2>284K</h2>
+              <p class="green">+24.7%</p>
+            </div>
+
+          </div>
+
+          <!-- Bottom Section -->
+          <div class="bottom">
+
+            <!-- Orders Table -->
+            <div class="table-section">
+              <div class="section-header">
+                <h3>Recent Orders</h3>
+              </div>
+
+              <table>
+                <tr>
+                  <th>Customer</th>
+                  <th>Product</th>
+                  <th>Status</th>
+                  <th>Amount</th>
+                </tr>
+
+                <tr>
+                  <td>Rohan Mehta</td>
+                  <td>Enterprise License</td>
+                  <td><span class="badge green">Completed</span></td>
+                  <td>$1299</td>
+                </tr>
+
+                <tr>
+                  <td>Ananya Sharma</td>
+                  <td>Starter Plan</td>
+                  <td><span class="badge yellow">Pending</span></td>
+                  <td>$199</td>
+                </tr>
+
+                <tr>
+                  <td>Vikram Singh</td>
+                  <td>Pro Subscription</td>
+                  <td><span class="badge processing">Processing</span></td>
+                  <td>$499</td>
+                </tr>
+
+                <tr>
+                  <td>Emma Wilson</td>
+                  <td>Pro Dashboard</td>
+                  <td><span class="badge green">Completed</span></td>
+                  <td>$299</td>
+                </tr>
+
+                <tr>
+                  <td>James Chen</td>
+                  <td>Team Plan</td>
+                  <td><span class="badge yellow">Pending</span></td>
+                  <td>$599</td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- Activity -->
+            <div class="activity">
+              <h3>Recent Activity</h3>
+
+              <div class="activity-item">
+                <div class="icon green">✔</div>
+                <div class="activity-content">
+                  <p><strong>New order received</strong></p>
+                  <span>2 minutes ago</span>
+                </div>
+              </div>
+
+              <div class="activity-item">
+                <div class="icon blue">👤</div>
+                <div class="activity-content">
+                  <p><strong>New user registered</strong></p>
+                  <span>10 minutes ago</span>
+                </div>
+              </div>
+
+              <div class="activity-item">
+                <div class="icon yellow">💳</div>
+                <div class="activity-content">
+                  <p><strong>Payment processed</strong></p>
+                  <span>30 minutes ago</span>
+                </div>
+              </div>
+
+              <div class="activity-item">
+                <div class="icon red">⚠</div>
+                <div class="activity-content">
+                  <p><strong>Server alert triggered</strong></p>
+                  <span>1 hour ago</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

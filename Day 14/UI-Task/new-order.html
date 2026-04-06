@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <title>New Order</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2 class="logo">Apex</h2>
+
+        <ul>
+          <li>
+            <a href="index.html">
+              <span class="nav-icon">🏠</span> Dashboard
+            </a>
+          </li>
+          <li>
+            <a href="orders.html">
+              <span class="nav-icon">📦</span> Orders
+            </a>
+          </li>
+        </ul>
+
+        <div class="profile">
+          <div class="profile-avatar">AS</div>
+          <p>Admin</p>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+        <!-- Topbar -->
+        <div class="topbar">
+          <input type="text" placeholder="Search..." />
+
+          <div class="top-actions">
+            <a href="new-order.html" class="btn">+ New Order</a>
+            <span class="avatar">AS</span>
+          </div>
+        </div>
+
+        <!-- Page Content -->
+        <div class="page">
+          <h1>New Order</h1>
+          <p class="subtitle">Create a new customer order.</p>
+
+          <div class="form-container">
+
+            <div class="section-header">
+              <h3>Order Details</h3>
+            </div>
+
+            <form>
+
+              <label>Customer Name</label>
+              <input type="text" placeholder="e.g. Emma Wilson">
+
+              <label>Customer Email</label>
+              <input type="email" placeholder="e.g. emma@example.com">
+
+              <label>Product Name</label>
+              <input type="text" placeholder="e.g. Pro Dashboard License">
+
+              <label>Amount</label>
+              <input type="number" placeholder="0.00">
+
+              <label>Status</label>
+              <select>
+                <option>Pending</option>
+                <option>Completed</option>
+                <option>Processing</option>
+              </select>
+
+              <div class="form-actions">
+                <button type="submit" class="btn">Create Order</button>
+                <button type="button" class="btn secondary">Cancel</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
